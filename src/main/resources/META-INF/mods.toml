@@ -1,0 +1,11 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+[[mods]] #mandatory
+modId="template" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="§a§lTemplate§f" #mandatory
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+logoFile="logo.png" #optional
+authors="§a§lsxmurxy§f" #optional
+description='''?'''
