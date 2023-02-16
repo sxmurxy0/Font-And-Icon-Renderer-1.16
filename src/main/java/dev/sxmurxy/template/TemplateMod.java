@@ -15,11 +15,11 @@ import net.minecraftforge.fml.common.Mod;
 public class TemplateMod {
 	
 	public static final String MOD_ID = "template";
-	private static CustomFont font = new CustomFont("Nunito-Medium.ttf", 35, Lang.BOTH, true, 0.0f, 2.0f, 0.5f);
-	private static CustomFont font1 = new CustomFont("Montserrat Medium.ttf", 26, Lang.BOTH, true, 0.0f, 2.0f, 0.5f);
-	private static CustomFont font2 = new CustomFont("Greycliff.ttf", 30, Lang.BOTH, true, 0.0f, 2.0f, 0.5f);
-	private static CustomFont font3 = new CustomFont("Comfortaa.ttf", 35, Lang.BOTH, true, 0.0f, 2.0f, 0.5f);
-	private static CustomFont font4 = new CustomFont("Circe Regular.ttf", 35, Lang.BOTH, true, 0.0f, 2.0f, 0.5f);
+	private static CustomFont font = new CustomFont("Nunito-Medium.ttf", 35, Lang.RU_ENG, true, 0.0f, 2.0f, 0.5f);
+	private static CustomFont font1 = new CustomFont("Montserrat Medium.ttf", 26, Lang.RU_ENG, true, 0.0f, 2.0f, 0.5f);
+	private static CustomFont font2 = new CustomFont("Greycliff.ttf", 30, Lang.RU_ENG, true, 0.0f, 2.0f, 0.5f);
+	private static CustomFont font3 = new CustomFont("Comfortaa.ttf", 35, Lang.RU_ENG, true, 0.0f, 2.0f, 0.5f);
+	private static CustomFont font4 = new CustomFont("Circe Regular.ttf", 35, Lang.RU_ENG, true, 0.0f, 2.0f, 0.5f);
 
     public TemplateMod() {
     	 MinecraftForge.EVENT_BUS.register(this);
