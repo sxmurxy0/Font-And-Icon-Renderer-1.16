@@ -16,8 +16,7 @@ public class CustomFont {
 	
 	public enum Lang {
 		ENG(new int[] {31, 126, 0, 0}),
-		RU(new int[] {1024, 1105, 0, 0}),
-		BOTH(new int[] {31, 126, 1024, 1105});
+		RU_ENG(new int[] {31, 126, 1024, 1105});
 		
 		private int[] charCodes;
 		
