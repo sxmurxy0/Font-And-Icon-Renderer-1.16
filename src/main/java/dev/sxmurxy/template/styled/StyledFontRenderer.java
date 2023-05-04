@@ -172,7 +172,7 @@ public final class StyledFontRenderer implements Wrapper {
 				}
 
 				if(underline) {
-					float y1 = posY + font.getLifting() * 2.0f;
+					float y1 = posY + font.getLifting() * 2.0f - 4;
 					GlStateManager.disableTexture();
 					
 					BUILDER.begin(7, VertexFormats.POSITION_COLOR);

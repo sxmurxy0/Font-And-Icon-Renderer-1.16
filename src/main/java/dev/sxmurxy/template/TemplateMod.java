@@ -17,10 +17,10 @@ public class TemplateMod implements ModInitializer {
 	
 	public static final String MOD_ID = "template";
 	public static final String FONT_DIR = "/assets/" + TemplateMod.MOD_ID + "/font/";
-	private static StyledFont font = new StyledFont("Nunito-Medium.ttf", 35, 0.0f, 2.0f, 0.5f, Lang.ENG_RU);
-	private static StyledFont font1 = new StyledFont("Montserrat Medium.ttf", 26, 0.0f, 2.0f, 0.5f, Lang.ENG_RU);
-	private static TextFont font2 = new TextFont("Greycliff.ttf", 30, 0.0f, 2.0f, 0.5f, Lang.ENG_RU);
-	private static TextFont font3 = new TextFont("Comfortaa.ttf", 35, 0.0f, 2.0f, 0.5f, Lang.ENG_RU);
+	private static StyledFont font = new StyledFont("Nunito-Medium.ttf", 35, 0.0f, 2.0f, 0.0f, Lang.ENG_RU);
+	private static StyledFont font1 = new StyledFont("Montserrat Medium.ttf", 26, 0.0f, 2.0f, 0.0f, Lang.ENG_RU);
+	private static TextFont font2 = new TextFont("Greycliff.ttf", 30, 0.0f, 2.0f, 0.0f, Lang.ENG_RU);
+	private static TextFont font3 = new TextFont("Comfortaa.ttf", 35, 0.0f, 2.0f, 0.0f, Lang.ENG_RU);
 	private static IconFont font4 = new IconFont("Icons.ttf", 60, 'a', 'b', 'c');
 	
 	public void onInitialize() {
