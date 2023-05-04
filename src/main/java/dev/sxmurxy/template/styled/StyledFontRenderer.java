@@ -158,7 +158,7 @@ public final class StyledFontRenderer implements Wrapper {
 				float f = font.renderGlyph(matrix, c0, posX, posY, bold, italic, red, green, blue, alpha);
 				
 				if(strikethrough) {
-					float h = font.getFontHeight() + 2;
+					float h = font.getLifting() + 2;
 					GlStateManager._disableTexture();
 					
 					BUILDER.begin(7, DefaultVertexFormats.POSITION_COLOR);
@@ -172,7 +172,7 @@ public final class StyledFontRenderer implements Wrapper {
 				}
 
 				if(underline) {
-					float y1 = posY + font.getFontHeight() * 2.0f + 2;
+					float y1 = posY + font.getLifting() * 2.0f - 4;
 					GlStateManager._disableTexture();
 					
 					BUILDER.begin(7, DefaultVertexFormats.POSITION_COLOR);
